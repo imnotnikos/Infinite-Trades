@@ -1,0 +1,15 @@
+# InfiniteTrades configuration
+
+# Trades never run out. Uses are never counted, so a trade can't lock.
+infinite-stock: true
+
+# Remove the "demand" price increase that vanilla adds when a trade
+# gets used a lot. Reputation-based pricing (hitting = higher prices,
+# curing = big discount, trading = small discount) is NOT touched.
+remove-demand-pricing: true
+
+# Also apply infinite stock to wandering traders.
+include-wandering-traders: true
+
+# Worlds where the plugin does nothing (case-sensitive names).
+disabled-worlds: []

@@ -1,0 +1,10 @@
+name: InfiniteTrades
+version: '${project.version}'
+main: com.imnikos.infinitetrades.InfiniteTradesPlugin
+api-version: '26.2'
+description: Infinite villager restocks with no demand-based price hikes. Reputation (hitting/curing) stays vanilla.
+authors: [imNikos]
+permissions:
+  infinitetrades.admin:
+    description: Use /infinitetrades reload and status
+    default: op
