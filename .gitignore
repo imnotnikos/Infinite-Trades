@@ -1,0 +1,26 @@
+# Maven
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local test server
+run/
+
+# Secrets
+.env
+*.key
+*.pem
+id_*
